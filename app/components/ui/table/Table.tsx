@@ -48,8 +48,10 @@ const Table: FC<any> = ({ title, lessonArr, timeArr }) => {
 		}
 	}
 	return (
-		<View className='mb-5'>
-			<Text className='text-3xl text-center text-[#fff]'>{title}</Text>
+		<View className=''>
+			<Text className='text-3xl text-center text-[#fff] border-t-4 py-1 border-[#4c4c4c]'>
+				{title}
+			</Text>
 			{lessonArr.map((lesson: string, i: number) => {
 				const timeArrSelect = timeArr[i]
 				return (

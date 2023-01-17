@@ -20,7 +20,7 @@ const TableItem: FC<ILessonInfo> = ({
 }) => {
 	return (
 		<View className='w-full bg-[#393939] h-12 flex-row px-3 items-center mb-1'>
-			<View className='time basis-9 mr-3'>
+			<View className='time basis-10 mr-3'>
 				<Text className='startTime text-white text-right'>{startTime}</Text>
 				<Text className='endTime text-[#a1a1a1de] text-right'>{endTime}</Text>
 			</View>
