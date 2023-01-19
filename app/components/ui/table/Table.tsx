@@ -16,7 +16,7 @@ const Table: FC<any> = ({ title, lessonArr, timeArr }) => {
 			case 'Классный час':
 				return 'Верка'
 			case 'Англ. яз':
-				return 'Англичанка'
+				return 'Жаба'
 			case 'Информатика':
 				return 'Информатичка'
 			case 'ОБЖ':
@@ -27,24 +27,22 @@ const Table: FC<any> = ({ title, lessonArr, timeArr }) => {
 	}
 	const setAudienceNumber = (lessonName: string) => {
 		switch (lessonName) {
-			case 'Алгебра' || 'Геометрия':
-				return '306'
+			case 'Алгебра' || 'Геометрия' || 'Классный час':
+				return '301'
 			case 'Русский язык' || 'Литература':
-				return '310'
+				return '308'
 			case 'Физика':
-				return '307'
+				return '302'
 			case 'Физкультура':
 				return 'Спорт зала'
-			case 'Классный час':
-				return '306'
 			case 'Англ. яз':
-				return '304'
+				return '319'
 			case 'Информатика':
 				return '301'
 			case 'ОБЖ':
-				return '312'
+				return '310'
 			case 'История':
-				return '314'
+				return '313'
 		}
 	}
 	const getLightTitle = (title: string, time: number) => {
