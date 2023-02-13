@@ -67,7 +67,7 @@ const Table: FC<any> = ({ title, lessonArr, timeArr }) => {
 		<View
 			className={
 				'border-4 mb-4 opacity-90 ' +
-				(getLightTitle(title, time) ? 'border-[#f31212]' : 'border-[#00FFFF]')
+				(getLightTitle(title, time) ? 'border-[#f31212]' : 'border-[#1500ff9a]')
 			}
 		>
 			<Text
