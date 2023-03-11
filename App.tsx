@@ -7,6 +7,8 @@ import { StyleSheet } from 'react-native'
 // Screens
 import HomeScreen from './app/components/screens/HomeScreen'
 import HomeworkScreen from './app/components/screens/HomeworkScreen'
+import AddHomeworkScreen from './app/components/screens/AddHomeworkScreen'
+import HomeworkStackScreen from './app/components/screens/HomeworkStackScreen'
 // Navigation
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { NavigationContainer } from '@react-navigation/native'
@@ -49,7 +51,7 @@ export default function App() {
 							})}
 						>
 							<Tab.Screen name='Расписание' component={HomeScreen} />
-							<Tab.Screen name='Домашка' component={HomeworkScreen} />
+							<Tab.Screen name='Домашка' component={HomeworkStackScreen} />
 						</Tab.Navigator>
 					</NavigationContainer>
 				</View>
