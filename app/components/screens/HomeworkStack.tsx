@@ -6,7 +6,7 @@ import HomeworkScreen from './HomeworkScreen'
 
 const HomeStack = createNativeStackNavigator()
 
-function HomeworkStackScreen({ navigation }: any) {
+function HomeworkStack({ navigation }: any) {
 	return (
 		<HomeStack.Navigator>
 			<HomeStack.Screen
@@ -46,4 +46,4 @@ function HomeworkStackScreen({ navigation }: any) {
 		</HomeStack.Navigator>
 	)
 }
-export default HomeworkStackScreen
+export default HomeworkStack
